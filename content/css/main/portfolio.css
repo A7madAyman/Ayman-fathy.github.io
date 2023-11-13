@@ -1,0 +1,39 @@
+.img-scale {
+  transition: all ease 0.4s;
+}
+.img-scale:hover {
+  scale: 1.16;
+}
+
+.card .fs {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin-right: 3px;
+}
+.card .card__btn {
+  transition: all ease 0.4s;
+}
+.card .card__btn:hover {
+  background-color: #bc2341 !important;
+}
+
+.nav-link {
+  color: #701225 !important;
+  font-weight: bold !important;
+}
+
+.nav-link.active {
+  border: #701225 3px solid !important;
+}
+
+.nav-tabs {
+  border-color: #701225 !important;
+}
+
+.widthOfBtn {
+  width: 150px !important;
+}
+
+.card h5 {
+  height: 50px;
+}/*# sourceMappingURL=portfolio.css.map */

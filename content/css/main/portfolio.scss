@@ -1,0 +1,46 @@
+@use "../vendors/variables" as *;
+
+// start-Block::hero Porfolio
+
+.img-scale {
+  transition: all ease 0.4s;
+  &:hover {
+    scale: 1.16;
+  }
+}
+
+.card {
+  .fs {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    margin-right: 3px;
+  }
+
+  .card__btn {
+    transition: all ease 0.4s;
+    &:hover {
+      background-color: #bc2341 !important;
+    }
+  }
+}
+.nav-link {
+  color: $primary !important;
+  font-weight: bold !important;
+}
+.nav-link.active {
+  border: $primary 3px solid !important;
+  //   border-color: $primary $primary white !important;
+}
+.nav-tabs {
+  border-color: $primary !important;
+}
+.widthOfBtn {
+  width: 150px !important;
+  //   margin-top: auto !important;
+}
+.card {
+  h5 {
+    height: 50px;
+  }
+}
+// end-Block::hero Porfolio

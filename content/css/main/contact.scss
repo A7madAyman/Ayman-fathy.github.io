@@ -1,0 +1,28 @@
+@use "../vendors/variables" as *;
+
+//  start-Block::contact hero
+
+.secondary {
+  background-color: rgb(229, 231, 235);
+}
+.hover {
+  transition: all ease 0.3s;
+  &:hover {
+    border: $primary 3px solid;
+    // background-color: $primary;
+  }
+}
+.img__container {
+  max-height: 150px;
+}
+.width-btn {
+  width: 25% !important;
+}
+
+button {
+  transition: all ease 0.4s;
+  &:hover {
+    background-color: #bc2341 !important;
+  }
+}
+//  end-Block::contact hero

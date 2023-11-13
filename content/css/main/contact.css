@@ -1,0 +1,25 @@
+.secondary {
+  background-color: rgb(229, 231, 235);
+}
+
+.hover {
+  transition: all ease 0.3s;
+}
+.hover:hover {
+  border: #701225 3px solid;
+}
+
+.img__container {
+  max-height: 150px;
+}
+
+.width-btn {
+  width: 25% !important;
+}
+
+button {
+  transition: all ease 0.4s;
+}
+button:hover {
+  background-color: #bc2341 !important;
+}/*# sourceMappingURL=contact.css.map */

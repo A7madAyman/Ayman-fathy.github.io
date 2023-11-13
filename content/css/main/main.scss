@@ -1,0 +1,237 @@
+@use "../vendors/variables" as *;
+
+// start-Block::Golbal coding
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  font-family: Rubik;
+}
+a {
+  text-decoration: none;
+}
+
+// end-Block::Golbal coding
+
+// start-Block::Navbar
+
+.primary {
+  color: $primary !important;
+}
+.bg__primary {
+  background-color: $primary !important;
+}
+.navbar {
+  background-color: $primary;
+  font-size: 20px;
+
+  li a {
+    color: white !important;
+    font-weight: bold;
+
+    padding: 6px 12px !important;
+    transition: all ease 0.5s;
+    &:hover {
+      background-color: white;
+      color: $primary !important;
+    }
+  }
+  .linkedin {
+    font-size: 25px;
+    background-color: white;
+    color: $primary !important;
+
+    color: #fff;
+    transition: all ease 0.5s;
+    &:hover {
+      background-color: #e9e0e0;
+    }
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .active {
+    background-color: white;
+    color: $primary !important;
+    transition: all ease 0.5s;
+    &:hover {
+      background-color: #e9e0e0 !important;
+    }
+  }
+  .navbar-brand {
+    padding: 6px 12px !important;
+    color: white !important;
+    border: 2px solid white;
+
+    &:hover {
+    }
+  }
+  img {
+    width: 27px;
+  }
+  .border__bottom {
+    border-bottom: 3px solid white !important;
+  }
+}
+// end-Block::Navbar
+
+// start-Block::Sec-hero
+.hero-sec {
+  padding: 25px 0px;
+  .hero-sec__description {
+    span {
+      color: $primary;
+    }
+  }
+  .dotted-b {
+    border: dotted 3px $primary;
+    padding: 4px 8px;
+  }
+  .description__paragraph {
+  }
+  .special__border {
+    border: $primary solid 2px !important;
+    padding: 5px 15px !important;
+  }
+  .portfolio__padding {
+    padding: 6px 16px !important;
+  }
+  .hero-img {
+    border-radius: 10%;
+  }
+
+  .d-none-sec__hero {
+    display: none !important;
+  }
+  .resume-btn {
+    transition: all ease 0.4s !important;
+    &:hover {
+      color: white !important;
+      background-color: $primary !important;
+    }
+  }
+  .portfolio-btn {
+    transition: all ease 0.4s !important;
+    &:hover {
+      color: $primary !important;
+      background-color: #e9e0e0 !important;
+    }
+  }
+}
+// end-Block::Sec-hero
+
+// start-Block::FOOTER
+.footer {
+  // background-color: rgb(45, 57, 82);
+  background-color: $primary;
+
+  .footer-logo__width {
+    width: 64px !important;
+    border: white solid 3px;
+    // padding: 4px;
+  }
+  .icons__border {
+    // border: 3px solid white;
+    transition: all ease 0.4s;
+    &:hover {
+      background-color: white;
+      color: $primary !important;
+    }
+  }
+}
+
+// end-Block::FOOTER
+
+// start-Block:: Media query MObile
+
+@media only screen and (max-width: 776px) {
+  .navbar {
+    .ul__container {
+      font-size: 16px;
+      padding: 3px 6px !important;
+    }
+    .container {
+      display: block;
+    }
+    .navbar-brand {
+      width: 239px;
+      text-align: center !important;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .navbar__ul {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .linkedin__container {
+      display: none;
+    }
+  }
+  .hero-sec {
+    .mob-hidden {
+      display: none;
+    }
+    .center {
+      text-align: center !important;
+      width: 100% !important;
+      margin: auto !important;
+    }
+    .d-none-sec__hero {
+      display: block !important;
+    }
+  }
+  footer {
+    .copy-rights {
+      display: none;
+    }
+    a {
+      margin: 5px 0;
+      display: inline-block;
+    }
+    .copy-rights-phone {
+      display: block !important;
+    }
+  }
+}
+
+// end-Block:: Media query Mobile
+
+// start-Block:: Media Tablet
+@media only screen and (min-width: 777px) and (max-width: 1000px) {
+  .navbar {
+    .container {
+      display: block !important;
+    }
+    .navbar-brand {
+      width: 239px;
+      text-align: center !important;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    .navbar__ul {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .linkedin__container {
+      display: none;
+    }
+  }
+  .hero-sec {
+    .mob-hidden {
+      display: none;
+    }
+    .center {
+      text-align: center !important;
+      width: 100% !important;
+      margin: auto !important;
+    }
+    .d-none-sec__hero {
+      display: block !important;
+    }
+  }
+}
+// end-Block:: Media Tablet
