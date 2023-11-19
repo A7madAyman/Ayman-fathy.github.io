@@ -63,7 +63,7 @@ a {
   .navbar-brand {
     padding: 6px 12px !important;
     color: white !important;
-    border: 2px solid white;
+    // border: 2px solid white;
 
     &:hover {
     }
@@ -168,6 +168,13 @@ a {
     }
     .linkedin__container {
       display: none;
+    }
+    ul {
+      li {
+        a {
+          padding: 3px 2px !important;
+        }
+      }
     }
   }
   .hero-sec {
