@@ -22,4 +22,38 @@ button {
 }
 button:hover {
   background-color: #bc2341 !important;
+}
+
+.blob {
+  text-align: center !important;
+  background: #701225;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 0 0 0 #701225;
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+.blob:hover {
+  background: #bc2341;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }/*# sourceMappingURL=contact.css.map */
