@@ -60,9 +60,6 @@ a {
 .navbar img {
   width: 27px;
 }
-.navbar .border__bottom {
-  border-bottom: 3px solid white !important;
-}
 
 .hero-sec {
   padding: 25px 0px;
